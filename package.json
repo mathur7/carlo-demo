@@ -1,0 +1,23 @@
+{
+  "name": "carlo-demo",
+  "version": "1.0.0",
+  "description": "carlo demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathur7/carlo-demo.git"
+  },
+  "keywords": [
+    "carlo",
+    "react"
+  ],
+  "author": "Ami Mathur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathur7/carlo-demo/issues"
+  },
+  "homepage": "https://github.com/mathur7/carlo-demo#readme"
+}
