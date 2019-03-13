@@ -2,9 +2,16 @@
   "name": "carlo-demo",
   "version": "1.0.0",
   "description": "carlo demo",
-  "main": "index.js",
+  "main": "example.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "parcel index.html"
+  },
+  "bin": {
+    "carlo-demo": "example.js"
+  },
+  "pkg": {
+    "scripts": "/dist/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,12 +28,16 @@
   },
   "homepage": "https://github.com/mathur7/carlo-demo#readme",
   "dependencies": {
+    "carlo": "^0.9.43",
+    "prop-types": "^15.7.2",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
+    "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.12.1"
+    "parcel-bundler": "^1.12.1",
+    "pkg": "^4.3.7"
   }
 }
