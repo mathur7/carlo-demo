@@ -2,16 +2,19 @@
   "name": "carlo-demo",
   "version": "1.0.0",
   "description": "carlo demo",
-  "main": "example.js",
+  "main": "index.js",
   "scripts": {
+    "bundle": "pkg package.json",
     "test": "test",
+    "build": "parcel build index.html",
     "start": "parcel index.html"
   },
   "bin": {
     "carlo-demo": "example.js"
   },
   "pkg": {
-    "scripts": "/dist/**/*.js"
+    "scripts": "dist/**/*.js",
+    "assets": "dist/index.html"
   },
   "repository": {
     "type": "git",
