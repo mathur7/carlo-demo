@@ -15,5 +15,5 @@ const path = require('path');
   await app.exposeFunction('env', _ => process.env);
 
   // Navigate to the main page of your app.
-  await app.load('dist/index.html');
+  await app.load('index.html');
 })();
